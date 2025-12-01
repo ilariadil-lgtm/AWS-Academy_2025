@@ -1,19 +1,24 @@
 """
 mostra_domanda() (senza return)
-    * Non prende parametri
-    * Stampa la domanda e le 4 opzioni
-    * Non restituisce nulla
+- Non prende parametri
+- Stampa la domanda e le 4 opzioni
+- Non restituisce nulla
 
 raccogli_risposta() (con return)
-    * Non prende parametri
-    * Chiede l'input all'utente
-    * Converte in int
-    * Restituisce l'opzione scelta
+- Non prende parametri
+- Chiede l'input all'utente
+- Converte in int
+- Restituisce l'opzione scelta
 
 valida_scelta(scelta) (con return)
-    * prende come parametro il numero scelto
-    * Verifica se è tra A,b,c d usando if
-    * Restituisce True se valida, False altrimenti
+- prende come parametro il numero scelto
+- Verifica se è tra A,b,c d usando if
+- Restituisce True se valida, False altrimenti
+
+genera_feedback(scelta) (con return)
+- Prende come parametro la lettera che è stata scelta 
+- Usa if/elif/else per determinare il messaggio
+- Restituisce la stringa con il feedback personalizzato
 """
     
 def mostra_domanda() -> None:
@@ -40,10 +45,23 @@ def valida_scelta(scelta: str) -> bool:
         return True
     else:
         return False
+    
+def genera_feedback(scelta:str) -> str:
+     """Restituisce il messaggio che indica all'utente se ha indovinato o meno. Questa funzione viene eseguita solo se la funzione di validazione restituisce True. """
+     if scelta.upper == "A":
+          return "Hai indovinato!"
+     else:
+          return "Non hai indovinato, peccato ritenta"
 
 mostra_domanda()
-
 risposta_da_validare: str = raccogli_risposta()
 risposta_validata: bool= valida_scelta(risposta_da_validare)
+feedback: str = ""
 
+if risposta_validata == True:
+     feedback = genera_feedback(risposta_da_validare)
+else:
+    feed = "Inserisci solo le opzioni elencate"
+
+print(feedback)
 print(risposta_validata)
