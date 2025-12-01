@@ -19,6 +19,11 @@ genera_feedback(scelta) (con return)
 - Prende come parametro la lettera che è stata scelta 
 - Usa if/elif/else per determinare il messaggio
 - Restituisce la stringa con il feedback personalizzato
+
+mostra_feedback(messaggio) (senza return)
+- Prende come parametro una stringa
+- Stampa il feedback in modo formattato
+- Non restituisce nulla
 """
     
 def mostra_domanda() -> None:
@@ -52,6 +57,15 @@ def genera_feedback(scelta:str) -> str:
           return "Hai indovinato!"
      else:
           return "Non hai indovinato, peccato ritenta"
+     
+def mostra_feedback(messaggio: str) -> None:
+    """Stampa il messaggio di feedback in modo formattato."""
+    simbol: str = "*"*30
+    print(f"""
+          {simbol}
+          {messaggio}
+          {simbol}
+        """)
 
 mostra_domanda()
 risposta_da_validare: str = raccogli_risposta()
@@ -63,5 +77,5 @@ if risposta_validata == True:
 else:
     feed = "Inserisci solo le opzioni elencate"
 
-print(feedback)
+mostra_feedback(feedback)
 print(risposta_validata)
