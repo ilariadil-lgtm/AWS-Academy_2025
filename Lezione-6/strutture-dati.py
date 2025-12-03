@@ -38,10 +38,39 @@ print(deleted_values)
 
 """Dizionari in Python"""
 
-dizionario: dict[str, int] = {
+personaggio1: dict[str, str ] = {
     "Nome": "Pippo",
     "tipo": "cane",
     "email": "pippo@disney.com"
 }
 
-print(dizionario)
+personaggio2: dict[str, str ] = {
+    "Nome": "Paperino",
+    "tipo": "anatra",
+    "email": "paperino@disney.com"
+}
+
+personaggi:list [dict[str, str]] = [personaggio1, personaggio2]
+
+print(personaggi[1].get("tipo"))
+
+del personaggio1["tipo"]
+
+for x in personaggi:
+    if x.get("tipo") == "anatra":
+        x["tipo"] = "papero"
+
+print(x)
+""""
+print(personaggio1["email"])
+
+personaggio1["telefono"] = "0922 33183"
+personaggio1["telefono"] = "0922 - 33183"
+
+personaggio1["Nome"]= "Minnie"
+
+print(personaggio1.get("telefono"))
+
+for chiave,valore in personaggio1.items():
+    print(f"{chiave} : {valore})")
+"""
