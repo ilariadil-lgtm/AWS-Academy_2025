@@ -1,6 +1,5 @@
 from typing import List
 
-
 prezzi: List[float] = [45.5, 12.0, 78.3, 23.1, 56.7]
 
 prezzi_originali = [45.5, 12.0, 78.3, 23.1, 56.7]
