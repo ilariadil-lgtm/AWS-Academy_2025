@@ -1,0 +1,170 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.2.7">
+  <diagram name="Pagina-1" id="nr-joDg6a_jG95TOeOSh">
+    <mxGraphModel dx="3133" dy="1898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9kO8LvaY2lYJS_CTapae-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;startArrow=none;startFill=0;strokeWidth=2;fillColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="157" as="sourcePoint" />
+            <mxPoint x="414" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#FFFFFF;align=center;verticalAlign=middle;" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px; color: rgb(255, 255, 255);&quot;&gt;START&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="165" x="331" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#FFFFFF;align=center;" value="&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;1. Crea Liste:&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;- lista_spesa &lt;i&gt;(list)&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;- carrello &lt;i&gt;[vuoto]&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="176.5" x="325" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#FFFFFF;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;UTENTE:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;inserisce prodotto &lt;i&gt;(input)&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="334" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9kO8LvaY2lYJS_CTapae-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="676.41" />
+              <mxPoint x="414" y="676.41" />
+            </Array>
+            <mxPoint x="413.9999999999998" y="624.4982352941175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-36" connectable="0" parent="9kO8LvaY2lYJS_CTapae-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Times New Roman&quot;&gt;Si&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0045" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-50" edge="1" parent="1" source="9kO8LvaY2lYJS_CTapae-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="584" />
+              <mxPoint x="290" y="430" />
+            </Array>
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-51" connectable="0" parent="9kO8LvaY2lYJS_CTapae-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;No&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 9px;&quot;&gt;(Errore)&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 9px;&quot;&gt;Messaggio: riprova&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0134" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#FFFFFF;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;Input valido?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;(Testo/vuoto)&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="136" x="345.25" y="544.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-21" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="740" />
+              <mxPoint x="240" y="410" />
+            </Array>
+            <mxPoint x="345.25000000000045" y="740" as="sourcePoint" />
+            <mxPoint x="330" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-24" connectable="0" parent="9kO8LvaY2lYJS_CTapae-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;No&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 9px;&quot;&gt;(non in lista)&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 9px;&quot;&gt;Messaggio: Blocco&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot;&gt;il carrello non si apre&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0587" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.88" y="776.41" as="sourcePoint" />
+            <mxPoint x="413.88" y="816.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-37" connectable="0" parent="9kO8LvaY2lYJS_CTapae-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Times New Roman&quot;&gt;Si&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0595" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#FFFFFF;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;Prodotto in&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;lista_spesa?&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="136" x="346" y="696.41" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#FFFFFF;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;AZIONE ROBOT:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;- Apri carrello&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;- Aggiungi Prodotto&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="333.25" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-43" edge="1" parent="1" source="9kO8LvaY2lYJS_CTapae-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9kO8LvaY2lYJS_CTapae-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-44" connectable="0" parent="9kO8LvaY2lYJS_CTapae-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Times New Roman&quot;&gt;Si&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0971" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-52" edge="1" parent="1" source="9kO8LvaY2lYJS_CTapae-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="1030" />
+              <mxPoint x="630" y="420" />
+              <mxPoint x="520" y="420" />
+            </Array>
+            <mxPoint x="510" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-57" connectable="0" parent="9kO8LvaY2lYJS_CTapae-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;No &lt;/b&gt;&lt;i&gt;&lt;b&gt;-&lt;/b&gt; Continua&lt;/i&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.8345" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-10" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#FFFFFF;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;Hai finito la spesa?&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="136" x="345.25" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-45" edge="1" parent="1" source="9kO8LvaY2lYJS_CTapae-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414.2352941176471" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-55" connectable="0" parent="9kO8LvaY2lYJS_CTapae-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font face=&quot;Times New Roman&quot;&gt;Si&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1307" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-58" edge="1" parent="1" source="9kO8LvaY2lYJS_CTapae-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="9kO8LvaY2lYJS_CTapae-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="1190" />
+              <mxPoint x="700" y="405" />
+            </Array>
+            <mxPoint x="710" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-59" connectable="0" parent="9kO8LvaY2lYJS_CTapae-58" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;No&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 9px;&quot;&gt;(Mancano cose)&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 9px;&quot;&gt;Messaggio: Manca x&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0108" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-11" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#FFFFFF;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;Controllo finale&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 10px; color: rgb(255, 255, 255);&quot;&gt;(liste uguali?)&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="136" x="346" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-38" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;startArrow=none;startFill=0;strokeWidth=2;fillColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="320" as="sourcePoint" />
+            <mxPoint x="414" y="373" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-41" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;startArrow=none;startFill=0;strokeWidth=2;fillColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.81" y="474" as="sourcePoint" />
+            <mxPoint x="413.81" y="527" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-42" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;startArrow=none;startFill=0;strokeWidth=2;fillColor=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413" y="920" as="sourcePoint" />
+            <mxPoint x="413" y="973" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-47" edge="1" parent="1" source="9kO8LvaY2lYJS_CTapae-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413.25" y="1460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#FFFFFF;" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;SUCCESS!&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;Apri cassa e termina&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;programma&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="333.25" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="9kO8LvaY2lYJS_CTapae-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#FFFFFF;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;color: rgb(255, 255, 255);&quot;&gt;Fine&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="373.25" y="1470" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

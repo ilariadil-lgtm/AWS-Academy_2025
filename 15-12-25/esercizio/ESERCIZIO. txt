@@ -1,0 +1,38 @@
+=== PROGRAMMA PER FARE LA SPESA ===
+Obiettivo: Creare un programma che simuli una spesa al supermercato. 
+Il programma deve gestire una Lista della Spesa (ciò che devi comprare) e un Carrello (ciò che stai prendendo).
+
+Scenario: Siamo nel 2050. I carrelli del supermercato sono robotizzati. 
+Per evitare sprechi, il carrello si rifiuta di aprirsi se cerchi di inserire 
+un prodotto che non è nella tua lista della spesa digitale.
+
+Passi: 
+1. Creare una lista della spesa con gli alimenti da acquistare; (list)
+2. Inserire i singoli elementi che si acquistano  (input)
+    es: - prendi pane
+    - prendi pasta
+    - prendi nutella
+    - prendi frutta
+3. apri il carrello
+4. inserisci gli elementi della lista
+5. esci dal programma
+
+Cosa mi serve?
+- input 
+    - devo permettere all'utente di scrivere gli ingredienti che prende dallo scaffale
+- lista con gli alimenti da acquistare 
+- lista degli alimenti inseriti dall'utente 
+Gestione degli errori e delle scelte 
+- if/else 
+    - input vuoto
+    - caratteri piccoli
+    - controllo degli alimenti presenti all'interno della lista
+        - se è presente si apre
+        - se l'alimento non è presente il carrello non si apre quindi genera un errore e poi l'input con l'errore
+- if/else 
+    - se la lista degli elimenti è == al coteggio degli elimenti inseriti allora apri il carrello 
+    - Gli alimenti ti sono dello stesso numero della lista? ipotizziamo 10
+    - Gli alimenti sono gli stessi della lista?
+    - controlla con un ciclo for gli elementi che mancano
+    - e se mancano alimenti genera un input con il relativo messaggio
+- se è tutto corretto apri il carrelo e termina il programma
